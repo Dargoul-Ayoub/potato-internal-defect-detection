@@ -1,6 +1,6 @@
 # Create the README.md file for download
 
-content = """# Détection de défauts internes de pommes de terre
+Détection de défauts internes de pommes de terre
 
 ## Description
 Ce projet met en œuvre un pipeline complet de deep learning pour la détection et
