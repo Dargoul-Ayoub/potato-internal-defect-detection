@@ -13,6 +13,10 @@ nettoyage des annotations, entraînement du modèle, validation et inférence.
 
 ---
 
+## DATA
+La data se trouve dans ce lien de kaggle https://www.kaggle.com/datasets/darayou/potato-internal-defect
+---
+
 ## Classes de défauts
 Le modèle est capable de détecter et classifier les défauts internes suivants :
 
@@ -23,10 +27,11 @@ Le modèle est capable de détecter et classifier les défauts internes suivants
 
 ## Structure du projet
 
-train.ipynb          # Prétraitement des données et entraînement du modèle
-inference.py         # Script d’inférence sur un dossier d’images
-classes.txt          # Définition des classes de défauts
-requirements.txt     # Dépendances Python
+.
+├── train.ipynb          # Data preprocessing and model training
+├── inference.py         # Inference on image folders
+├── classes.txt          # Defect class definitions
+├── requirements.txt     # Python dependencies
 
 
 ---
@@ -45,7 +50,7 @@ pip install -r requirements.txt
 
 ## Entraînement du modèle
 
-L’entraînement du modèle est réalisé à l’aide du notebook `train.ipynb`.
+L’entraînement du modèle est réalisé à l’aide du notebook train.ipynb.
 
 jupyter notebook train.ipynb
 
