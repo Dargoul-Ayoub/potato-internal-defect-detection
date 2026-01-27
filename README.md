@@ -23,7 +23,6 @@ Le modèle est capable de détecter et classifier les défauts internes suivants
 
 ## Structure du projet
 
-###
 train.ipynb          # Prétraitement des données et entraînement du modèle
 inference.py         # Script d’inférence sur un dossier d’images
 classes.txt          # Définition des classes de défauts
