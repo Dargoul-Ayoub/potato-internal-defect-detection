@@ -28,8 +28,7 @@ Le modèle est capable de détecter et classifier les défauts internes suivants
 ├── inference.py         # Script d’inférence sur un dossier d’images.
 ├── classes.txt          # Définition des classes de défauts.
 ├── requirements.txt     # Dépendances Python.
-├── README.md            # Documentation du projet.
-└── .gitignore
+
 
 ---
 
